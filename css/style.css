@@ -26,22 +26,16 @@ header {
     justify-content: space-between;
     background-color: #4a4a4a; 
     cursor: pointer;
-    border-radius: 15px;
-    padding: 5px;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 button > span {
     margin-left: 5px;
 }
 
-.toplogos {
-    fill: white;
-    width: 1.5rem;
-    padding: 5px;
-}
-
-.maximize {
-    width: 1.5rem;
+.max {
+    padding: 18px;
 }
 
 
@@ -49,7 +43,7 @@ button > span {
 
 main {
     background-color: black;
-    height: 89vh;
+    height: 83.5vh;
 }
 
 .flexcontainer {
@@ -57,7 +51,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    padding: 0 10rem;
+    padding: 2rem 10rem;
 }
 
 .flexcontainer > div {
@@ -67,11 +61,59 @@ main {
     width: calc(100% / 7 - 16px);
     height: 130px;
     margin: 5px;
+    position: relative;
 }
+
+.flextag {
+    display: flex;
+    background-color: #80808047;
+    width: fit-content;
+    padding: 5px;
+    align-items: center;
+    position: absolute;
+    top: 98px;
+}
+
+
 
 /* FOOTER */
 
-footer {
+.toolbar {
     height: 10vh;
     background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    padding-top: 10px;
+}
+
+#color {
+    color: green;
+}
+
+.buttongroup {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.buttonbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+.hangbutton {
+    background-color: #4a4a4a;
+    height: 10vh;
+    width: fit-content;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: red;
 }
