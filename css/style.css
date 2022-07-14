@@ -107,6 +107,10 @@ p {
     cursor: pointer;
 }
 
+.middle {
+    margin-right: 200px;
+}
+
 
 .hangbutton {
     background-color: #4a4a4a;
