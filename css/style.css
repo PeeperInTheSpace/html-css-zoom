@@ -2,5 +2,76 @@
 
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+/* HEADER SECTION */
+
+header {
     background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px;
+    height: 1vh;
+}
+
+
+.topbuttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4a4a4a; 
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+button > span {
+    margin-left: 5px;
+}
+
+.toplogos {
+    fill: white;
+    width: 1.5rem;
+    padding: 5px;
+}
+
+.maximize {
+    width: 1.5rem;
+}
+
+
+/* MAIN SECTION */
+
+main {
+    background-color: black;
+    height: 89vh;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 0 10rem;
+}
+
+.flexcontainer > div {
+    background-image: url(https://picsum.photos/250/150);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: calc(100% / 7 - 16px);
+    height: 130px;
+    margin: 5px;
+}
+
+/* FOOTER */
+
+footer {
+    height: 10vh;
+    background-color: #222222;
 }
